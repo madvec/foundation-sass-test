@@ -1,0 +1,58 @@
+################################### F R A G M E N T ######################################
+#                                                                                        #
+#                       DO NOT MODIFY THE CONTENTS OF THIS FILE                          #
+#                        IF YOU DON'T KNOW WHAT ARE YOU DOING                            #
+#                                                                                        #
+# Enable Rewriting                                                                       #
+RewriteEngine on
+#
+# Redirect /fragment to backend                                                          #
+RewriteRule ^fragment/$ /fragment/latte/releases/fragment/support/actions/backend.php [L]
+#                                                                                        #
+#                                                                                        #
+# Redirect home to empty q                                                               #
+#                                                                                        #
+RewriteRule ^$ /fragment/latte/releases/fragment/support/actions/dispatch.php?q= [L]
+#                                                                                        #
+#                                                                                        #
+# If requested resource exists as a file or directory go to it                           #
+#                                                                                        #
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule (.*) - [L]
+#
+#                                                                                        #
+# Else rewrite requests for non-existent resources to dispatch                           #
+RewriteRule (.*) /fragment/latte/releases/fragment/support/actions/dispatch.php?q=$1 [L]
+#
+#
+# Enable compression if available
+#
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript image/svg+xml
+</ifmodule>
+#
+#
+# Enable caching if available
+#
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/svg "access 1 year"
+ExpiresByType image/svg+xml "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType application/x-font-woff "access 1 year"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType application/javascript "access 1 month"
+ExpiresByType application/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 2 days"
+</IfModule>
+#                                                                                        #
+#                                                                                        #
+#                                                                                        #
+########################################/FRAGMENT#########################################

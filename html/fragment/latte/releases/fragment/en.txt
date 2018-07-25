@@ -1,0 +1,125 @@
+pages Pages
+newRootPage New Root Page
+newPage New Page
+guid GUID
+pageKey URL key
+inTrash In Trash
+online Online
+template Template
+created Created
+modified Modified
+title Title
+description Description
+pageSort Content Sort
+pageSortCreatedAsc Creation Date (Ascending)
+pageSortCreatedDesc Creation Date (Descending)
+pageSortModifiedAsc Modification Date (Ascending)
+pageSortModifiedDesc Modification Date (Descending)
+pageSortTitleAsc Title (Ascendent)
+pageSortTitleDesc Title (Descendent)
+detail Detail
+configuration Configuration
+openPage Open
+openPageS Open %s
+openPageEditor Open Editor
+page Page
+emptyView Empty View
+missingName (Missing Name)
+body Body
+format Format
+imageGallery Gallery
+path Path
+fileSize File Size
+changeNameDescription Change Name
+deleteFile Delete File
+deleteS Delete %s
+productThumb Product Thumb
+FileItemThumb (System thumb)
+nonameThumb (No name)
+image Image
+deleteImage Delete Image
+moveImageBefore Move Before
+moveImageAfter Move After
+viewImage View Image
+viewOriginal View Original
+users Users
+newUser New User
+groups Groups
+newGroup New Group
+addUserToGroup Add User
+user User
+group Group
+isRoot Is Root
+isBanned Is Banned
+owner Owner
+readPermission Read
+writePermission Write
+removePermission Delete
+insertChildPermission Insert Child
+writeChildPermission Write Child
+deleteChildPermission Delete Child
+readChildrenPermission Read Children
+permissionsOther Other
+permissionsWorld World
+configurePermission Can Configure
+advanced Advanced
+invalidUserOrPass Invalid user name or password. Please Try Again.
+changePassword Change Password
+oldPassword Current Password
+newPassword New Password
+confirmNewPassword Confirm
+passwordRules At least 5 characters
+passwordsDontMatch Passwords don't match
+currentPasswordNotValid The current password is not valid
+passwordChangeSuccess Password changed successfully
+pageSortCustom By Index
+pageSortIndex Sort Index
+isSysAdmin Is SysAdmin
+areYouSureSetPageOnline ¿Do you want to make the page available online?
+areYouSureSetPageOnlineDesc Because of your permissions you will not be able to make further changes.
+yesMakeOnline Yes, make available online
+signOut Sign Out
+sendToTrash Send to Trash
+canUseBackend Can use Backend
+urlKeyInUse URL Key in use by another page.
+previewPage Preview
+pageNotFound404 Page not found
+settingValue Value
+cantWriteOnFFolder Can't write on Fragment Directory
+cantWriteOnFFolderDesc Please give write permissions to your /fragment folder.
+retry Retry
+connectionUnsuccParams Connection to database failed with the specified parameters.
+cantWriteConfigFile Can't create file config.php, Please re-check the permissions on /fragment directory.
+errorSavingConfig Cant Save Configuration Data
+wDatabaseNotInstalled Database was not installed, wasn't empty
+chooseRootPassword Choose a password for root user
+language Language
+english English
+spanish Spanish
+installComplete Install Successful
+installCompleteDesc The backend will now be loaded. Use your root password for sign in.
+passwordsMustBeSLong Must be at least %s characters
+modRwNotEnabled mod_rewrite is not enabled
+modRwNotEnabledDesc Please check your server configuration. Fragment can't run without this module.
+installHtOpts Can't write file: .htaccess
+installHtOptsDesc This file must be in the root folder of your site
+iHaveGivenPermToFolder I have given permissions to write it
+iWillInstallHtAccessManually I will create the file manually
+iHaveCreatedHtAcc I have created the .htaccess file
+useThisForHtAcc Use this code for the .htaccess file
+actualSize Actual Size
+saveChangesOnImageQ Save changes on image?
+redoThumb Redo Thumbs
+viewThumb View Thumb
+cropNow Crop Image
+widthPx Width (Pixels)
+heightPx Height (Pixels)
+widthPr Width (%)
+heightPr Height (%)
+scaleImg Scale (%)
+resizeImage Resize Image
+resizeBasedDesc Resize
+cantAddImage Can't Add Image
+SNotCompatibleImage %s is not a compatible image
+replaceImage Replace Image
+seeResultImage See Result Image
