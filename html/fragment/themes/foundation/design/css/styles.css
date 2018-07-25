@@ -6,4 +6,12 @@ article.main-container {
   background: #333;
 }
 
+.demo {
+  background-color: #1b6d85;
+}
+
+.cell {
+  background-color: #8c8c8c;
+}
+
 /*# sourceMappingURL=styles.css.map */
